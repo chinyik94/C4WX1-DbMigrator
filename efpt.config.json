@@ -1,0 +1,1590 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "THCC_C4WDEVContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "C4WX1_DbMigrator",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Activity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AMTQuestion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APIAccessKey]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APIMonitor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APIOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APIOrderAllergy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APIOrderDiagnosis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APIOrderMedication]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APIOrderTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APNSNotification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Activity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_AMTQuestion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APIAccessKey]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APIMonitor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APIOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APIOrderAllergy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APIOrderDiagnosis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APIOrderMedication]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APIOrderTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_APNSNotification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingInvoiceConsumable]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingInvoiceService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingPackage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingPackageInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingPackageRequest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingProposal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingProposalService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_BillingService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Branch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_C4WDeviceToken]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanSub]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanSubActivity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanSubCPGoals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanSubGoal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanSubIntervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanSubProblemList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CarePlanSubProblemListGoal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CareReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CareReportConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CareReportRehabilitation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CareReportSocialSupport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CareReportSystemInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Chat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Code]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CodeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_CPGoals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Diagnosis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_DischargeSummaryReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_DischargeSummaryReportAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Disease]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_DiseaseInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_DiseaseSubInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_DiseaseVitalSignType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EBASDEPQuestion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Enquiry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EnquiryAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EnquiryConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EnquiryEscPerson]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EnquiryLanguage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EnquirySCM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EnquiryServicesRequired]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Event]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EventUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_EventUserLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ExternalDoctor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_GeoFencing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Group]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_GroupRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ICAWoundCare]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_InitialCareAssessment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_InitialCareAssessmentAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_InitialCareAssessmentSpecialInstruction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_InitialCareAssessmentVitalSign]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Intervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Item]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ItemStock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_LoginDevice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_MailSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_MedicationVitalSignType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_MobileAppVersioning]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_MultiDisciplinaryMeeting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_MultiDisciplinaryMeetingDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_NotificationChat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_NotificationEvent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_NotificationMessageTemplates]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Notifications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_NotificationTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_NotificationVitalSignDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_NutritionTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_NutritionTaskReference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Otp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Package]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Patient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientAccessLine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientAdditionalInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientAMT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientAMTAnswer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientBradenScale]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientClinician]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientDrugAllergy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientEBASDEP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientEBASDEPAnswer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientFamilyHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientGCS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientImmunisation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientLanguage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMBI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMedicalHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMedication]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMedicationConsume]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMedicationConsumeAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMedicationSupply]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMFS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientMMSE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientNutrition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientOtherAllergy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientPackage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientProfile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientRAF]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientReferral]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientReferralService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientSocialSupport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientSpecialIndicator]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWound]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundDraft]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundReviewBy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundVisit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundVisitAppearance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundVisitCleansingItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundVisitClinician]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundVisitTreatment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundVisitTreatmentList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_PatientWoundVisitTreatmentObjectives]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ProblemList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ProblemListGoal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Receipt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ReceiptForInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_RegisteredDevice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_RegisteredDeviceV2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ResidentAssessmentCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ScheduledTasks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ServiceForBilling]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ServiceForBillingCost]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_ServiceSkillset]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_SyncPatientLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_SyncWoundLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_SyncWoundVisitLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_SysConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_SystemForDisease]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Task]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TaskFileAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TaskServicesRequired]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TaskSpecificDate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TaskUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TaskUserLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TaskUserLogAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TD_WoundAssessmentFactor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TeleconsultationRecording]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TeleconsultationReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Thresholds]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TreatmentListItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_TreatmentTOL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Types]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UploadFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserBranch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserCategoryRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserLanguage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserOrganization]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_Users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserSkillset]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_UserUserType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_VitalSignDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_VitalSignRelationships]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_VitalSigns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_VitalSignTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_VitalSignTypeThreshold]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit_WoundConsolidatedEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AuditTrail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingInvoiceConsumable]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingInvoiceService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingPackage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingPackageInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingPackageRequest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingProposal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingProposalService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BillingService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Branch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[C4WDeviceToken]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[C4WImage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanSub]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanSubActivity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanSubCPGoals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanSubGoal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanSubIntervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanSubProblemList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarePlanSubProblemListGoal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CareReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CareReportConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CareReportRehabilitation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CareReportSocialSupport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CareReportSystemInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Chat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Code]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CodeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CPGoals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Diagnosis]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DischargeSummaryReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DischargeSummaryReportAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Disease]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DiseaseInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DiseaseSubInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DiseaseVitalSignType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EBASDEPQuestion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmailLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Enquiry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryEscPerson]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryLanguage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquirySCM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EnquiryServicesRequired]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ErrorLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Event]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventUserLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ExternalDoctor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Facility]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GeoFencing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Group]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GroupRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ICAWoundCare]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InitialCareAssessment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InitialCareAssessmentAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InitialCareAssessmentSpecialInstruction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InitialCareAssessmentVitalSign]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[IntegrationApiRequestLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Intervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Item]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ItemStock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Language]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LoginDevice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MailSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MailSettingsMsgToUserType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MedicationVitalSignType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MobileAppVersioning]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MultiDisciplinaryMeeting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MultiDisciplinaryMeetingDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificationChat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificationEvent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificationMessageTemplates]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Notifications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificationTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotificationVitalSignDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NutritionTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NutritionTaskReference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Otp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Package]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Patient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientAccessLine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientAdditionalInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientAMT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientAMTAnswer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientBradenScale]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientClinician]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientDrugAllergy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientEBASDEP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientEBASDEPAnswer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientFacility]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientFamilyHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientGCS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientImmunisation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientLanguage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMBI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMedicalHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMedication]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMedicationConsume]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMedicationConsumeAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMedicationSupply]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMFS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientMMSE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientNutrition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientOtherAllergy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientPackage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientProfile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientRAF]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientReferral]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientReferralService]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientSocialSupport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientSpecialIndicator]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWound]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundDraft]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundDraftTreatmentList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundDraftTreatmentObjectives]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundReviewBy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundVisit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundVisitAppearance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundVisitCleansingItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundVisitClinician]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundVisitTreatment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundVisitTreatmentList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PatientWoundVisitTreatmentObjectives]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProblemList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProblemListGoal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Receipt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReceiptForInvoice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RecentView]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RegisteredDevice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RegisteredDeviceV2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ResidentAssessmentCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Resource]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ScheduledTasks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServiceForBilling]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServiceForBillingCost]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServiceSkillset]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SyncPatientLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SyncWoundLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SyncWoundVisitLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SysConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SystemForDisease]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Task]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskFileAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskServicesRequired]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskSpecificDate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskUserLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskUserLogAttachment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TD_WoundAssessmentFactor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TeleconsultationRecording]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TeleconsultationReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Thresholds]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TreatmentListItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TreatmentTOL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Types]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UploadFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserBranch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCategoryFacility]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCategoryParentChild]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserCategoryRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserLanguage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserOrganization]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserSkillset]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserUserType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UUIDLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VitalSignDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VitalSignRelationships]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VitalSigns]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VitalSignTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VitalSignTypeThreshold]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WoundConsolidatedEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WoundUserCategoryParentChild]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[vw_AssessmentDue]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_CarePlanSetup]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_CarePlanSystemDisease]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_DBSize]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_Doctors]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_FalangaScores]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_FalangaScores_WoundDraft]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_PatientAllLatestVitalSigns]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_PatientBilling]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_PatientDisease]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_PatientLatestVitalSigns]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_PatientWound]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_PatientWoundImageDownload]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_PushScores]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_Teleconsultation]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vw_UserRoles]",
+         "ObjectType": 3
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
